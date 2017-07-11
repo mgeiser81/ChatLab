@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyA9jS4GsF06aoxOUR7PxOOoZHMQnNsrgY0",
+    authDomain: "streamlabs-cdf6e.firebaseapp.com",
+    databaseURL: "https://streamlabs-cdf6e.firebaseio.com",
+    projectId: "streamlabs-cdf6e",
+    storageBucket: "",
+    messagingSenderId: "629481692980"
+  }
 };
